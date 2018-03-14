@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Shared">
+      <UniqueIdentifier>{4e4a6a07-d337-42ef-975e-413637bbb864}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Shared">
+      <UniqueIdentifier>{82649680-6f01-4f4b-9016-33d2f9930b72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Demos">
+      <UniqueIdentifier>{43825ca5-b5e1-402d-a57a-be1b7f41d1ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Psylr5">
+      <UniqueIdentifier>{6e41cea6-3f5d-4fe6-933f-0622d4f52e64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Psylr5Stage2">
+      <UniqueIdentifier>{df2a265b-a2ff-490e-8df5-42f56935f154}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Psylr5Stage2">
+      <UniqueIdentifier>{7c9a844d-8b9f-48d2-8620-fb0eabcaaf15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Psylr5Stage2\Stages">
+      <UniqueIdentifier>{9c44723e-7c7f-4732-ba08-a611453a5920}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Psylr5Stage2\Stages">
+      <UniqueIdentifier>{94ffff4c-f70e-4b08-a344-6e06691bf32f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Psylr5Stage2\Objects">
+      <UniqueIdentifier>{02e69774-84fc-4a2d-9c0d-5eaace02fc5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Psylr5Stage2\Objects\Characters">
+      <UniqueIdentifier>{d10a1100-629b-4793-85d3-c5f53a1c91a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Psylr5Stage2\Objects">
+      <UniqueIdentifier>{10aa3d31-7009-4048-9d0a-7be087e603ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Psylr5Stage2\Objects\Characters">
+      <UniqueIdentifier>{44a0f707-bd46-4971-a10b-7ec884148d7e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="header.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseEngine.h">
+      <Filter>Header Files\Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="DisplayableObject.h">
+      <Filter>Header Files\Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="FontManager.h">
+      <Filter>Header Files\Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="JPGImage.h">
+      <Filter>Header Files\Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="MovementPosition.h">
+      <Filter>Header Files\Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="templates.h">
+      <Filter>Header Files\Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="TileManager.h">
+      <Filter>Header Files\Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="LKREngine.h">
+      <Filter>Header Files\Psylr5Stage2</Filter>
+    </ClInclude>
+    <ClInclude Include="LKRTileManager.h">
+      <Filter>Header Files\Psylr5Stage2</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage.h">
+      <Filter>Header Files\Psylr5Stage2\Stages</Filter>
+    </ClInclude>
+    <ClInclude Include="Playing.h">
+      <Filter>Header Files\Psylr5Stage2\Stages</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Header Files\Psylr5Stage2\Stages</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>Header Files\Psylr5Stage2\Objects\Characters</Filter>
+    </ClInclude>
+    <ClInclude Include="Hero.h">
+      <Filter>Header Files\Psylr5Stage2\Objects\Characters</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Header Files\Psylr5Stage2\Objects\Characters</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOver.h">
+      <Filter>Header Files\Psylr5Stage2\Stages</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Header Files\Psylr5Stage2</Filter>
+    </ClInclude>
+    <ClInclude Include="Ghost.h">
+      <Filter>Header Files\Psylr5Stage2\Objects\Characters</Filter>
+    </ClInclude>
+    <ClInclude Include="Reaper.h">
+      <Filter>Header Files\Psylr5Stage2\Objects\Characters</Filter>
+    </ClInclude>
+    <ClInclude Include="Spider.h">
+      <Filter>Header Files\Psylr5Stage2\Objects\Characters</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="mainfunction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseEngine.cpp">
+      <Filter>Source Files\Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="DisplayableObject.cpp">
+      <Filter>Source Files\Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="FontManager.cpp">
+      <Filter>Source Files\Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="JPGImage.cpp">
+      <Filter>Source Files\Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="TileManager.cpp">
+      <Filter>Source Files\Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="LKREngine.cpp">
+      <Filter>Source Files\Psylr5Stage2</Filter>
+    </ClCompile>
+    <ClCompile Include="LKRTileManager.cpp">
+      <Filter>Source Files\Psylr5Stage2</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage.cpp">
+      <Filter>Source Files\Psylr5Stage2\Stages</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Source Files\Psylr5Stage2\Stages</Filter>
+    </ClCompile>
+    <ClCompile Include="Playing.cpp">
+      <Filter>Source Files\Psylr5Stage2\Stages</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>Source Files\Psylr5Stage2\Objects\Characters</Filter>
+    </ClCompile>
+    <ClCompile Include="Hero.cpp">
+      <Filter>Source Files\Psylr5Stage2\Objects\Characters</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Source Files\Psylr5Stage2\Objects\Characters</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOver.cpp">
+      <Filter>Source Files\Psylr5Stage2\Stages</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Source Files\Psylr5Stage2</Filter>
+    </ClCompile>
+    <ClCompile Include="Ghost.cpp">
+      <Filter>Source Files\Psylr5Stage2\Objects\Characters</Filter>
+    </ClCompile>
+    <ClCompile Include="Reaper.cpp">
+      <Filter>Source Files\Psylr5Stage2\Objects\Characters</Filter>
+    </ClCompile>
+    <ClCompile Include="Spider.cpp">
+      <Filter>Source Files\Psylr5Stage2\Objects\Characters</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
